@@ -1,0 +1,37 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+footer img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+   
+    
+}
+main  {
+   display: flex;            /* Coloca os grupos (divs) lado a lado */
+    justify-content: underline;  /* Centraliza os grupos no meio da página */
+    align-items: underline;      /* Alinha os grupos verticalmente */
+    gap: 50px;                /* Cria um espaço de 50px entre os grupos */
+    margin-top: 30px;         /* Espaço acima do rodapé */
+    padding: 20px 0;
+}
+
+.fotos-projeto {
+    display: flex;             /* A mágica acontece aqui: alinha os itens lado a lado */
+    justify-content: underline;   /* Centraliza as imagens no espaço disponível */
+    gap: 20px;                 /* Cria um espaço de 20px entre as imagens */
+    margin-top: 20px;          /* Adiciona um espaço acima das imagens */
+}
+main img {
+ width: 250px;
+ height: 250px;
+border-radius:10%;
+
+}
+
+footer {
+    margin-top:30px ;
+}
